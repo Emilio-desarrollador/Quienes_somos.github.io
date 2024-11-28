@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0c0b10; /* Fondo oscuro */
+            color: #ffffff; /* Texto claro */
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #008037; /* Verde oscuro */
+            color: #ffffff; /* Texto blanco */
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1e1e24; /* Fondo gris oscuro */
+            color: #d4d4d8; /* Texto gris claro */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #008037; /* Verde oscuro */
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        strong {
+            color: #a0c9a8; /* Verde suave */
+        }
+
+        .cta {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .cta a {
+            display: inline-block;
+            background-color: #008037; /* Verde oscuro */
+            color: #ffffff; /* Texto blanco */
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta a:hover {
+            background-color: #005f29; /* Verde más oscuro */
+        }
+    </style>
+</head>
+<body>
+    <header>Quiénes Somos</header>
+    <div class="container">
+        <h1>Nuestra Historia</h1>
+        <p>Somos un grupo de jóvenes emprendedores de la <strong>Institución Educativa Nuestra Señora del Socorro</strong>. Desde el inicio de nuestra cátedra de investigación, tuvimos claro que queríamos desarrollar un proyecto innovador y útil para nuestra comunidad. Inspirados por los conocimientos sobre las fases de la luna y su relación con la agricultura, creamos <strong>Agrolunar</strong>, una guía digital diseñada para ayudar a los agricultores a aprovechar las fases lunares en sus cultivos de manera efectiva.</p>
+
+        <p>Más tarde, una fundación llamada <strong>Cafeteritos</strong> nos propuso un nuevo desafío: desarrollar una base de datos que conectara a los caficultores con compradores. Fue así como nació <strong>Conecta Cafeteros</strong>, una aplicación diseñada para mejorar la calidad de vida de los caficultores al ofrecerles un canal directo para vender su café a un precio justo.</p>
+
+        <h2>El apoyo que hemos recibido</h2>
+        <p>Nuestro colegio, la <strong>Institución Educativa Nuestra Señora del Socorro</strong>, ha sido un pilar fundamental para el desarrollo de este proyecto. Gracias a su respaldo, tuvimos acceso a recursos, espacios y oportunidades para dar forma a nuestras ideas y presentarlas en la muestra empresarial. Además, contamos con el apoyo invaluable de los profesores, quienes nos ayudaron a recolectar los primeros datos para construir la base de datos de <strong>Conecta Cafeteros</strong>. Su orientación fue crucial para establecer las primeras conexiones con las fincas.</p>
+
+        <p>También, durante la muestra empresarial, la concejal <strong>Estefani Pérez</strong> reconoció el valor de nuestro trabajo y decidió unirse a nuestro equipo para ayudarnos a potenciar esta iniciativa.</p>
+
+        <h2>Nuestro propósito</h2>
+        <p>Hoy en día, trabajamos en equipo para crear aplicaciones útiles que beneficien a nuestra comunidad. Nuestra misión es ofrecer herramientas tecnológicas que conecten a las personas y mejoren su calidad de vida. Este proyecto es un reflejo de nuestro compromiso y la confianza que nos ha dado nuestra institución y la comunidad.</p>
+
+        <div class="cta">
+            <a href="mailto:appsagricolas6@gmail.com">Contáctanos</a>
+        </div>
+    </div>
+</body>
+</html>
