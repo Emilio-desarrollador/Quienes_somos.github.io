@@ -6,36 +6,49 @@
     <title>Quiénes Somos</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #0c0b10; /* Fondo oscuro */
-            color: #ffffff; /* Texto claro */
+            background: linear-gradient(to bottom, #0d1b2a, #1b263b); /* Fondo degradado */
+            color: #e0e1dd; /* Texto claro */
             line-height: 1.6;
         }
 
         header {
-            background-color: #008037; /* Verde oscuro */
-            color: #ffffff; /* Texto blanco */
-            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro con transparencia */
+            padding: 20px 0;
             text-align: center;
-            font-size: 24px;
+            color: #008037; /* Verde oscuro */
+            font-size: 2.5rem;
             font-weight: bold;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+            animation: fadeIn 2s ease-in-out;
         }
 
         .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #1e1e24; /* Fondo gris oscuro */
-            color: #d4d4d8; /* Texto gris claro */
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            border-radius: 8px;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.2); /* Fondo claro con transparencia */
+            color: #e0e1dd; /* Texto claro */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            text-align: justify;
+            animation: slideIn 1.5s ease-out;
         }
 
         h1, h2 {
-            color: #008037; /* Verde oscuro */
+            color: #a0c9a8; /* Verde suave */
             margin-top: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
         }
 
         p {
@@ -58,11 +71,73 @@
             text-decoration: none;
             padding: 10px 20px;
             border-radius: 5px;
-            transition: background-color 0.3s;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
         .cta a:hover {
             background-color: #005f29; /* Verde más oscuro */
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #bbb;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9rem;
+            box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.7);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Animaciones */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Media Query para dispositivos pequeños */
+        @media (max-width: 600px) {
+            header {
+                font-size: 2rem;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            .cta a {
+                font-size: 1rem;
+                padding: 8px 16px;
+            }
         }
     </style>
 </head>
@@ -86,5 +161,8 @@
             <a href="mailto:appsagricolas6@gmail.com">Contáctanos</a>
         </div>
     </div>
+    <footer>
+        <p>&copy; 2024 Agrolunar - Quiénes Somos</p>
+    </footer>
 </body>
 </html>
